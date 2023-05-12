@@ -30,7 +30,6 @@ export class StudentService {
         student.motherName = studentDto.motherName;
         student.gender = studentDto.gender;
         student.dateOfBirth = studentDto.dateOfBirth;
-        student.level = studentDto.level;
         student.department = studentDto.department;
         student.mobileNumber = studentDto.mobileNumber;
         return await this.repo.save(student);

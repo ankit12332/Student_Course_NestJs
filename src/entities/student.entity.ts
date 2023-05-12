@@ -25,9 +25,6 @@ export class Student {
   dateOfBirth: Date;
 
   @Column()
-  level: string;
-
-  @Column()
   department: string;
 
   @Column({ type: 'bigint' }) //bigint is a data type. This will allow it to store larger integer values.

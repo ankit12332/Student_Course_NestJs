@@ -27,10 +27,6 @@ export class CreateStudentDto {
 
   @IsNotEmpty()
   @IsString()
-  level: string;
-
-  @IsNotEmpty()
-  @IsString()
   department: string;
 
   @IsNotEmpty()
@@ -56,9 +52,6 @@ export class UpdateStudentDto {
 
   @IsDateString()
   dateOfBirth?: Date;
-
-  @IsString()
-  level?: string;
 
   @IsString()
   department?: string;
